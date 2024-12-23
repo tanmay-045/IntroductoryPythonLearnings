@@ -1,0 +1,99 @@
+1. Employee Payroll Management System
+
+Design a system to manage the payroll of different types of employees. The system should support adding employees, categorizing them by their payment model (salaried, hourly, commission), and calculating their salaries based on the employee type.
+
+Requirements:
+Employee Class: Each employee should have attributes such as name, employee ID, and methods for displaying details and calculating salary.
+Salaried Employee: Salaried employees should have a fixed salary.
+Commission Employee: Commission-based employees should earn based on total sales and a commission rate.
+Hourly Employee: Hourly employees should have a wage rate and total hours worked to calculate their salary.
+Payroll: Implement a system to calculate and print the payroll of all employees.
+
+This question involves class inheritance, polymorphism, and object-oriented design for a payroll system.
+
+
+----------
+
+
+2. Library Management System
+
+Design a library management system that allows members to borrow and return books. The system should track book availability, member transactions, and charge late fees if a book is returned late.
+
+Requirements:
+Book Class: Each book should have attributes like title, author, ISBN, and its availability status.
+Member Class: Each member should have a name, ID, borrow limit, and the ability to borrow and return books. The system should track their borrowed books, fees due, and transaction history.
+Library Class: The library should be able to add books, add members, allow members to borrow/return books, and display member and book details.
+Transaction History: Implement a system to display the borrowing and returning history of books along with any late fees.
+
+This question involves object-oriented programming concepts such as classes, methods, and managing real-world entities like books and members.
+
+
+----------
+
+
+3. Inventory Management System
+
+Design an inventory management system that tracks product categories, stock levels, and sales. The system should support adding products, managing stock, and recording sales with discounts.
+
+Requirements:
+Product Class: Each product should have attributes such as name, SKU, price, quantity, and category.
+Inventory Class: The inventory should maintain a list of products and categories. It should be able to add products, track stock, and allow product sales.
+Sales and Stock Management: Implement functionality to sell products, apply discounts, and update stock levels accordingly. Track the sale history of products.
+Inventory Reports: Provide detailed reports of the current inventory, sales, and product categories.
+
+This question involves managing a simple product inventory with stock management, sales processing, and reporting.
+
+
+----------
+
+
+4. Flight Reservation System with Inheritance
+
+Design a flight reservation system where passengers can book flights and check flight status. The system should support different types of flights (e.g., DomesticFlight and InternationalFlight), each with its own rules for pricing and baggage allowances.
+
+Requirements:
+
+Base Class Flight: This class should have common attributes like flight number, departure and arrival cities, and flight duration.
+Derived Classes:
+DomesticFlight: Inherits from Flight and has a pricing model based on distance.
+InternationalFlight: Inherits from Flight and has a pricing model based on both distance and the number of passengers.
+Booking System: Implement a Passenger class where a passenger can book a flight, specifying the flight, the number of seats, and any baggage requirements.
+Baggage Allowance: Each type of flight should have different baggage rules (e.g., international flights allow more baggage).
+Flight Reservation History: Track all reservations made by passengers, including the flight details, baggage info, and payment status.
+
+
+----------
+
+
+5. E-commerce Cart and Checkout System
+
+Design an E-commerce System that supports shopping carts, checkout, and order processing. The system should include the following features:
+Products: Each product has a name, price, and stock quantity.
+Shopping Cart: A customer can add, remove, or update the quantity of products in the shopping cart.
+Discount Codes: Implement functionality where customers can apply a discount code that gives them a percentage off their total order.
+Checkout: Implement a checkout system where the customer is charged the total price (after applying any discounts).
+Order Tracking: Track each order with details like order number, products purchased, total price, and status (e.g., "Pending," "Shipped").
+
+Requirements:
+
+Implement a Product class with attributes for name, price, and stock.
+Implement a CartItem class that represents a product and its quantity in the shopping cart.
+Implement a ShoppingCart class that manages the cart, including adding/removing items and applying discounts.
+Implement an Order class that handles the checkout process, including calculating totals and generating an order number.
+Implement an ECommerceSystem class that manages products, customers, and orders.
+
+
+
+
+
+
+6. Student Grades Management System
+Design a system to manage student grades for a school. The system should support adding students, enrolling them in courses, and recording their grades.
+
+Requirements:
+
+Student Class: The Student class should have attributes like student name, ID, and a list of enrolled courses.
+Course Class: Each course should have a name, course code, and a list of students enrolled. It should also track the grades for each student.
+Grade System: Implement methods for assigning grades to students in each course.
+Report Cards: Implement a method that generates a report card for each student, showing the courses they are enrolled in and their grades.
+GPA Calculation: Implement a method that calculates the GPA (Grade Point Average) for each student based on their grades in different courses.
